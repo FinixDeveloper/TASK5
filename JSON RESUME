@@ -1,0 +1,51 @@
+let MyResume ={
+  "Basics Info": {
+    "Name": "Praveen kumar",
+    "Email": "praveenkumarfinix@gmail.com",
+    "Phone No": 9655509676,
+    "Degree": "B.E",
+    "Location": {
+      "Address": "7/4 Kamber Street Nondokovil Patti Melur",
+      "PostalCode": 625106,
+      "City": "Madurai",
+      "State": "Tamilnadu",
+      "Country": "India"
+    },
+    "Profiles": [
+      {
+        "Website": "https://www.linkedin.com/in/praveen-kumar-84989128b",
+        "Github":"https://github.com/FinixDeveloper"
+      }
+    ]
+  },
+  "Education": [
+    {
+      "Institution": "PSNA College Of Engineering & Technology",
+      "Department": "Computer Science",
+      "StudyType": "Full-Time",
+      "Batch start year": 2017,
+      "BATCH end year": 2021,
+      "CGPA": 7.5,
+    }
+  ],
+  "Skills": [
+    {
+      "Name": "javascript",
+      "level": "beginer",
+      "project": [
+        "Coming Soon..."
+      ]
+    }
+  ],
+  "Languages": [
+    {
+      "Language": "Tamil,English",
+    }
+  ],
+  "Interests": [
+    {
+      "Name": "Blogger,Art,Wordpress Web Developer",
+    }
+  ]
+}
+console.log(MyResume);
