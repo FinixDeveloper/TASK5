@@ -1,0 +1,39 @@
+var json = [{
+  "Insitution": "Guvi",
+  "Course": "Full-Stack Developer",
+  "Task5" : "Javascript : Array & Objects", 
+  "Batch" : "B51 WD2 Tamil",
+  "Mentor": "Sanjay",
+  "Email" : "praveenkumarfinix@gmail.com",
+}];
+
+//for loop
+const objvalues= Object.values(json);
+for(var i = 0; i < objvalues.length; i++) {
+  var obj = objvalues[i];
+  
+  console.log(obj.Insitution);
+  console.log(obj.Course);
+  console.log(obj.Task5);
+  console.log(obj.Batch);
+  console.log(obj.Mentor);
+  console.log(obj.Email);
+
+}
+//for Each
+objvalues.forEach(function(obj) { console.log(obj.Insitution); });
+
+//for In
+for (var key in json) {
+  if (json.hasOwnProperty(key)) {
+    console.log(json[key].Course);
+   
+  }
+  }
+
+//for Of
+let text = "";
+for (let x of json[key].Batch) {
+text += x; 
+}
+console.log(text);
